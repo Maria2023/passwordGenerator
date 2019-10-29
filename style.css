@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100vw;    
+    height: 100vh;  
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    background-color: darkgray;
+    width: 500px;
+    height: 70px;
+}
+
+
+.container{
+    background: lightgray;
+    height: 250px;
+    width: 500px;
+    margin-top: 0px;
+}
+
+
+.middleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.innerBox input{
+    width: 250px;
+}
+
+#box{
+    width: 163px;
+    height: 80px;
+}
